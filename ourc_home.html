@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<!-- [h1] added language attribute -->
+<html lang="en">
+
+<!-- [h2]  - added meta name "description"; "keywords";
+           - added author information
+           - connected CSS Style Sheets -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="OURC Home Page">
+  <meta name="keywords" content="OURC, Home">
+  <meta name="author" content="Alexandru Tanase"/> 
+  <title>OURC Home page</title>
+  <link href="ourc_styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<div class="ourchead">Open University Running Club</div>
+<div class="navbar">
+<a href="ourc_home.html" tabindex="1">Home</a> |
+<a href="ourc_data.html" tabindex="2">Runner Data</a> |
+<a href="ourc_dummy.html" tabindex="3">Extra link 1</a> |
+<a href="ourc_dummy.html" tabindex="4">Extra link 2</a> |
+<a href="ourc_dummy.html" tabindex="5">Extra link 3</a>
+</div>
+
+<!-- [h3] - included div id="sponsor"
+          - br attribute does not requirea an end element
+ -->
+
+<div id="aside">
+<div class="sponsor">Sponsored links</div>
+        <a href="https://www.parkrun.org.uk/miltonkeynes/">Parkrun</a><br> 
+        <a href="https://www.mkhalf.co.uk/">Half Marathon</a><br>  
+        <a href="https://www.mkac.org.uk/">Athletic Club</a><br>  
+        <a href="https://www.bigfunrun.com/">Big Fun Run</a><br>  
+        <a href="https://www.thefixevents.com/content/events/">Events</a><br> 
+</div>
+
+
+
+
+<div id="sectionhome">
+<h2>About the running club</h2> <!-- [h4] -closing "/" for <h2> attribute -->
+<p>The Club is run on a rather informal basis in that there are no fixed meeting times or formally arranged groups, or club fees! </p>
+<p>Runners usually run at lunchtimes and meet each other by informal arrangement at the pavilion. In general there is a group (mainly men) that leaves for a run at about 12.20pm and then other groups (mainly women) that leave between 12.30pm and 12.45pm. </p>
+
+<!-- [h5] - included and alt attribute for image-->
+<div id="image">OURC fun run<br><img src="images/runners.jpg" alt="A group of runners"></div><!-- [h6] -extra "/" deleted at the end of <img src...../> -->
+<p>From time to time there are more organized training sessions to do fartlek or interval training.</p>
+<p>Each month a handicap race is arranged so that runners can compete with one another. These races are either 5 miles, 10km or 5km.</p>
+<p>Ut lacus orci, aliquam a lacus sit amet, aliquet pulvinar odio. Integer quis ex et nulla vestibulum consectetur quis et quam. Donec eleifend felis non ultrices pharetra. Vivamus non dolor aliquet, suscipit nisi sit amet, vehicula nisl. In nec pretium mi. Aenean sit amet arcu maximus, gravida orci non, dictum odio. 
+Curabitur a nunc ipsum. Nunc sit amet leo urna. Donec in sollicitudin mi. Proin ac lectus orci. Sed scelerisque gravida est, at posuere orci malesuada vel.</p>
+</div>
+
+<!-- These lines of code represent the footer area of the page-->
+<div id="footer">
+<a href="ourc_dummy.html" tabindex="1">Privacy</a> | <!-- [h7] - added a space separator between hmtl" and tabindex for lines of code containinf tabindex="1" to tabindex="4" -->
+<a href="ourc_dummy.html" tabindex="2">Contact</a> | 
+<a href="ourc_dummy.html" tabindex="3">FAQs</a> | 
+<a href="ourc_dummy.html" tabindex="4">Copyright</a> | 
+<a href="ourc_dummy.html" tabindex="5">Conditions of use</a> | <!-- [h8] - added the closing condition </a> for attribute <a>-->
+</div>
+</body>
+</html>
